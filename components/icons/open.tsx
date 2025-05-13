@@ -1,4 +1,8 @@
-export function OpenIcon() {
+export function OpenIcon({
+  className = "text-inherit w-6 h-6",
+}: {
+  className?: string;
+}) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -10,7 +14,7 @@ export function OpenIcon() {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
-      className="w-6 h-6"
+      className={`${className}`}
     >
       <path d="M21 12H9" />
       <path d="M21 18H7" />

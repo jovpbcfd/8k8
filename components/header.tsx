@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="bg-[#7E8E8B] text-white">
+      <header className="bg-[#d2ede8] text-white">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           <Link
             href="/"
@@ -29,7 +29,10 @@ export default function Header() {
 
           <nav className="hidden md:block">
             <div className="max-w-6xl mx-auto px-4">
-              <Navigation className="flex items-center justify-center space-x-6 py-3 text-sm font-medium" />
+              <Navigation
+                className="flex items-center justify-center space-x-6 py-3 text-sm font-medium"
+                desktopColor="text-[#04494C]/90"
+              />
             </div>
           </nav>
 
@@ -50,7 +53,11 @@ export default function Header() {
 
           <div className="md:hidden">
             <button onClick={() => setIsOpen(!isOpen)} className="text-white">
-              {isOpen ? <CloseIcon /> : <OpenIcon />}
+              {isOpen ? (
+                <CloseIcon className="w-6 w-6 text-[#04494C]" />
+              ) : (
+                <OpenIcon className="w-6 w-6 text-[#04494C]" />
+              )}
             </button>
           </div>
         </div>
@@ -60,10 +67,10 @@ export default function Header() {
             isOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
-          <Navigation className="space-y-5 pt-16" />
+          <Navigation className="space-y-5" mobileColor="text-white" />
         </div>
+        <Breadcrumb />
       </header>
-      <Breadcrumb />
     </>
   );
 }

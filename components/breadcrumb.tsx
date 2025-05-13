@@ -10,9 +10,9 @@ export default function Breadcrumb() {
   if (pathSegments.length === 0) return null; // Hide breadcrumb on homepage
 
   return (
-    <div className="bg-[#241D56] pb-6 pt-3">
-      <nav className="max-w-[1200px] h-[27px] mx-auto text-[16px]">
-        <ol className="flex items-center space-x-2 ml-[10px] md:ml-[20px]  md:relative">
+    <div className="bg-[#003e53] py-1">
+      <nav className="max-w-[1200px] mx-auto text-[14px]">
+        <ol className="flex items-center space-x-2 ml-[10px] md:ml-[20px] md:relative">
           <li>
             <Link href="/" className="text-gray-300 font-bold hover:underline">
               Home
