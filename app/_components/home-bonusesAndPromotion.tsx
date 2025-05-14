@@ -22,11 +22,11 @@ export default function BonusesAndPromotion() {
                 day!
               </h3>
               <p>
-                It's easy to start making money right away and doesn't cost
-                anything. If you become an 8k8 dealer, you'll get extra
-                benefits! You could win a single prize worth up to P88,888 and
-                get extras worth more than P160,000. Your bonus goes up as more
-                people join and use your site.
+                It&lsquo;s easy to start making money right away and
+                doesn&lsquo;t cost anything. If you become an 8k8 dealer,
+                you&lsquo;ll get extra benefits! You could win a single prize
+                worth up to P88,888 and get extras worth more than P160,000.
+                Your bonus goes up as more people join and use your site.
               </p>
             </li>
 
@@ -45,8 +45,8 @@ export default function BonusesAndPromotion() {
               </h3>
               <p>
                 When you join 8k8, we value you. Get a 100% bonus on your first
-                payment. If you deposit P188, you'll get an extra P188 in bonus
-                money to add to your account.
+                payment. If you deposit P188, you&lsquo;ll get an extra P188 in
+                bonus money to add to your account.
               </p>
             </li>
 
@@ -80,7 +80,7 @@ export default function BonusesAndPromotion() {
               <h3>7. Member Day is every 18th of the month.</h3>
               <p>
                 On the 18th, which is Membership Day, all users will get a 1
-                billion bonus. Don't pass up this great chance to win!
+                billion bonus. Don&lsquo;t pass up this great chance to win!
               </p>
             </li>
 
@@ -96,7 +96,7 @@ export default function BonusesAndPromotion() {
               <h3>9. Bonus for social media: Like and share on Facebook</h3>
               <p>
                 Join in the fun on Facebook! You can get a bonus of up to P588
-                with just one phone call and click. That's simple!
+                with just one phone call and click. That&lsquo;s simple!
               </p>
             </li>
 

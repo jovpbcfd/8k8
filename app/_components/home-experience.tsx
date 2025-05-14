@@ -18,11 +18,11 @@ export default function Experience() {
           <p>
             One thing that makes 8k8 stand out is the huge number of slot games
             it has. We work with some of the best software companies in the
-            business, like NetEnt, Microgaming, Play'n GO, and Betsoft, to bring
-            you high-quality games with amazing graphics, catchy music, and new
-            ways to play. There are a lot of different types of slots players
-            here, from those who like simple games to those who want slots with
-            lots of features and more complicated gameplay.
+            business, like NetEnt, Microgaming, Play&lsquo;n GO, and Betsoft, to
+            bring you high-quality games with amazing graphics, catchy music,
+            and new ways to play. There are a lot of different types of slots
+            players here, from those who like simple games to those who want
+            slots with lots of features and more complicated gameplay.
           </p>
           <p>
             8k8 offers a multitude of 3-reel games that are simple to play and
@@ -32,8 +32,8 @@ export default function Experience() {
             makes them easy to play while still being fun and profitable.
           </p>
           <p>
-            If you're in the mood for something more modern, our five-reel video
-            slots are far more thrilling. These games have many enjoyable
+            If you&lsquo;re in the mood for something more modern, our five-reel
+            video slots are far more thrilling. These games have many enjoyable
             elements such as bonus rounds, free spins, wilds, multipliers, and
             scatter symbols that add uncertainty and excitement to every spin.
             Like those from ancient periods, the future, or well-known films,
@@ -67,40 +67,40 @@ export default function Experience() {
               our collection all the time. These games have the newest and most
               popular slot machine features. They have cutting-edge graphics,
               new ways to play, and special bonus features that are sure to keep
-              you amused. You'll always be at the cutting edge of online slot
-              gaming because our players get to play the newest games as soon as
-              they come out.
+              you amused. You&lsquo;ll always be at the cutting edge of online
+              slot gaming because our players get to play the newest games as
+              soon as they come out.
             </p>
 
             <p>
               But our site has a lot more than just the newest games. It also
               has many of the well-known and loved old-school slot games. Still
               very popular are slot games with large payouts, excellent
-              graphics, and entertaining elements like Starburst, Gonzo's Quest,
-              and Book of Dead. You'll have no trouble locating something you
-              like whether you wish to return to an old favorite or experiment
-              with something fresh.
+              graphics, and entertaining elements like Starburst, Gonzo&lsquo;s
+              Quest, and Book of Dead. You&lsquo;ll have no trouble locating
+              something you like whether you wish to return to an old favorite
+              or experiment with something fresh.
             </p>
           </div>
 
           <div>
             <h3>You can play mobile slots anywhere and at any time.</h3>
             <p>
-              8k8's mobile-friendly software lets you play your favourite slot
-              games on the go. You can play games on your phone or computer
+              8k8&lsquo;s mobile-friendly software lets you play your favourite
+              slot games on the go. You can play games on your phone or computer
               anytime you choose, including on the way to work, at home, or
-              while you're moving. Just like our PC slots, our mobile slots look
-              fantastic, play fast, and have excellent sound effects. No matter
-              where you are, you can play the game without being stopped and
-              really get into it.
+              while you&lsquo;re moving. Just like our PC slots, our mobile
+              slots look fantastic, play fast, and have excellent sound effects.
+              No matter where you are, you can play the game without being
+              stopped and really get into it.
             </p>
 
             <p>
-              It's easy to use the mobile interface, which lets you move around
-              the games library, handle your account, and deposit or withdraw
-              money—all from your phone or tablet. You can get to all the action
-              right away by downloading the 8k8 app or playing straight in your
-              mobile browser.
+              It&lsquo;s easy to use the mobile interface, which lets you move
+              around the games library, handle your account, and deposit or
+              withdraw money—all from your phone or tablet. You can get to all
+              the action right away by downloading the 8k8 app or playing
+              straight in your mobile browser.
             </p>
           </div>
 
@@ -119,7 +119,7 @@ export default function Experience() {
                 <strong>Very Good Software Providers: </strong>
                 <p>
                   You can play great games made by top companies like NetEnt,
-                  Microgaming, and Play'n GO.
+                  Microgaming, and Play&lsquo;n GO.
                 </p>
               </li>
 

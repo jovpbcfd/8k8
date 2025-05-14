@@ -25,17 +25,17 @@ export default function WhyPick() {
                   SSL Encryption: All transactions and data transfers are
                   protected by cutting-edge SSL encryption technology. This
                   keeps your personal and financial data safe from people who
-                  shouldn't have access to it.
+                  shouldn&lsquo;t have access to it.
                 </li>
                 <li>
                   Two-Factor Authentication (2FA): Players can turn on 2FA to
-                  make their accounts safer from people who aren't supposed to
-                  be there.
+                  make their accounts safer from people who aren&lsquo;t
+                  supposed to be there.
                 </li>
                 <li>
-                  A fair game: All of 8k8's games use certified Random Number
-                  Generators (RNG) to make sure that the results are fair and
-                  neutral.
+                  A fair game: All of 8k8&lsquo;s games use certified Random
+                  Number Generators (RNG) to make sure that the results are fair
+                  and neutral.
                 </li>
               </ul>
             </li>
@@ -50,7 +50,8 @@ export default function WhyPick() {
                 </li>
                 <li>
                   Brand-new books: Get the newest games as soon as they come
-                  out. We're always adding new games to keep things interesting.
+                  out. We&lsquo;re always adding new games to keep things
+                  interesting.
                 </li>
                 <li>
                   Mobile-Friendly: The 8k8 site and app are mobile-friendly, so
@@ -82,8 +83,8 @@ export default function WhyPick() {
                 <li>
                   <strong>International Access:</strong>
                   8k8 can be played in many places around the world, and it
-                  supports many languages and currencies, so it's a great game
-                  for people from all over the world.
+                  supports many languages and currencies, so it&lsquo;s a great
+                  game for people from all over the world.
                 </li>
                 <li>
                   <strong>Localized Support:</strong>
