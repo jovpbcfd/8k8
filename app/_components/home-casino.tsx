@@ -6,7 +6,7 @@ export default function Casino() {
     <section className="bg-[linear-gradient(to_bottom,_#d2ede8,_#eaf6ef,_#ffffff)] lg:sections-gutter-y">
       <div className="max-w-6xl mx-auto p-2 lg:p-0">
         <div>
-          <h2 className="text-[#DA1E49] font-bold text-xl tracking-normal text-center lg:text-3xl">
+          <h2 className="text-[#DA1E49] font-bold text-xl tracking-normal mb-2 text-center uppercase lg:mb-5 lg:text-3xl">
             Check out the 8k8 Casino for slots, live dealers, and more.
           </h2>
           <p className="text-justify">
