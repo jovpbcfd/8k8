@@ -16,16 +16,17 @@ export default function Welcome() {
               <p>
                 We want 8k8.com to be a fun and exciting place where our members
                 always feel like they are important. Not only is our platform
-                meant to entertain, but it's also meant to thank our community.
-                We offer a lot of different deals and bonuses to both new and
-                old players. Whether you're an agent who wants to easily earn
-                daily rebates or a serious gamer who wants to increase your
-                wins, we have put together the perfect set of deals for you.
+                meant to entertain, but it&lsquo;s also meant to thank our
+                community. We offer a lot of different deals and bonuses to both
+                new and old players. Whether you&lsquo;re an agent who wants to
+                easily earn daily rebates or a serious gamer who wants to
+                increase your wins, we have put together the perfect set of
+                deals for you.
               </p>
               <p>
-                You don't just play games when you join 8k8.com; you join a
-                lively group where being loyal is rewarded and every spin could
-                win you a lot of money. We want everyone to have a chance,
+                You don&lsquo;t just play games when you join 8k8.com; you join
+                a lively group where being loyal is rewarded and every spin
+                could win you a lot of money. We want everyone to have a chance,
                 whether they are just starting out or want to move up in their
                 membership. When you come to our site, we want it to be fun,
                 useful, and full of chances for you.

@@ -16,8 +16,9 @@ export default function VipBonus() {
             When you become a higher VIP level, you get special benefits like
             faster payouts and more personalized customer service. PPlus, as you
             move up the ranks, the bonuses get better. Thanks for all your hard
-            work and please always feel like you're important to us. Learn what
-            it's like to be treated like a VIP at 8k8.com today by upgrading!
+            work and please always feel like you&lsquo;re important to us. Learn
+            what it&lsquo;s like to be treated like a VIP at 8k8.com today by
+            upgrading!
           </p>
         </div>
       </div>

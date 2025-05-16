@@ -8,7 +8,7 @@ export default function BonusForSocialMedia() {
           </h2>
           <p className="text-justify">
             When you share your excitement on 8k8.com, you can win great prizes!
-            With our Social Media Bonus, it's easy to make extra cash by
+            With our Social Media Bonus, it&lsquo;s easy to make extra cash by
             following us and talking about our posts. You can get up to P588 if
             you like and share our Facebook posts. All you need is a phone and
             your finger.

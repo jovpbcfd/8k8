@@ -1,10 +1,10 @@
 export default function HowToPlay() {
   return (
     <div className="lg:my-10">
-      <h3 className="text-left text-[#04494C] font-[900] uppercase mb-2 lg:mb-5 lg:text-xl">
+      <h3 className="text-left text-[#04494C] font-[900] uppercase mb-2 lg:mb-5 lg:text-2xl">
         How to Play Slots for Real Money at 8k8
       </h3>
-      <p className="mb-2 lg:mb-5">
+      <p className="mb-2 lg:mb-8">
         To play slots for real money at 8k8, all you have to do is log in, pick
         your best game, and press the &quot;spin&quot; button. Here are the
         steps you need to take to begin:

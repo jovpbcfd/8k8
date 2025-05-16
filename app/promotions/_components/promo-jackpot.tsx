@@ -15,10 +15,11 @@ export default function Jackpot() {
             and play your favorite games.
           </p>
           <p className="text-justify">
-            The Mystery Jackpot is fun because you can't tell what will happen
-            next. Once a month, one lucky player's life goes from normal to
-            amazing in an instant. Are you going to be the next billionaire?
-            Keep playing and moving around at 8k8.com this month, and good luck!
+            The Mystery Jackpot is fun because you can&lsquo;t tell what will
+            happen next. Once a month, one lucky player&lsquo;s life goes from
+            normal to amazing in an instant. Are you going to be the next
+            billionaire? Keep playing and moving around at 8k8.com this month,
+            and good luck!
           </p>
         </div>
       </div>

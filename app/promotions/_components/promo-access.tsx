@@ -7,11 +7,11 @@ export default function EasyAccess() {
             Take part in betting—easy access
           </h2>
           <p className="text-justify">
-            At 8k8.com, we've made it as easy as possible for you to play. You
-            can join in the fun and bet on a lot of different games with just a
-            few clicks. Everyone can enjoy the thrill of playing without any
-            problems because our platform is designed to work well for both new
-            and experienced players.
+            At 8k8.com, we&lsquo;ve made it as easy as possible for you to play.
+            You can join in the fun and bet on a lot of different games with
+            just a few clicks. Everyone can enjoy the thrill of playing without
+            any problems because our platform is designed to work well for both
+            new and experienced players.
           </p>
           <p className="text-justify">
             To begin, all you have to do is download the most recent version of

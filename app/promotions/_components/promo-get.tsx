@@ -11,13 +11,13 @@ export default function GetFreeBonus() {
             free bonus, which could be anywhere from P8.88 to P888, by
             downloading the 8k8 mobile app. You can get a lot out of this offer
             to get moving on our site. The app lets you get to your favorite
-            games and deals right away, whether you're out and about or just
-            relaxing at home.
+            games and deals right away, whether you&lsquo;re out and about or
+            just relaxing at home.
           </p>
           <p className="text-justify">
             Our mobile app is made to be quick, safe, and easy for anyone to
             use. The different games are easy to switch between and fun to play.
-            You'll always be the first to know about new deals, gifts, and
+            You&lsquo;ll always be the first to know about new deals, gifts, and
             offers if you have the app on your phone. Do not wait, get the app
             right now and get your free prize!
           </p>

@@ -14,9 +14,10 @@ export default function BigParty() {
           </p>
           <p className="text-justify">
             The 1 billion bonus is open to all players, whether they are new or
-            have been playing for a long time. It's all about having fun with
-            the games you love and loving the community that makes 8k8.com so
-            great. Get ready for the party of the month and mark your calendar!
+            have been playing for a long time. It&lsquo;s all about having fun
+            with the games you love and loving the community that makes 8k8.com
+            so great. Get ready for the party of the month and mark your
+            calendar!
           </p>
         </div>
       </div>

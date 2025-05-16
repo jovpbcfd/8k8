@@ -5,7 +5,7 @@ export default function Welcome() {
         <div className="flex flex-col items-center lg:flex-row gap-2 lg:gap-6">
           <div className="w-full lg:w-3/4">
             <h1
-              className="text-[#DA1E49] text-2xl text-pretty tracking-wide font-bold tracking-normal mb-2
+              className="text-[#04494C] text-2xl text-pretty uppercase tracking-wide font-[900] tracking-normal mb-2
             lg:text-balance
             lg:mb-5 lg:text-4xl"
             >

@@ -1,13 +1,15 @@
 import Download from "./home-download";
 import HowToPlay from "./home-how";
+import PlayWithRealMoney from "./home-play-real-money";
+import { data } from "@/data/real-money";
 
 export default function Enjoy() {
   return (
     <>
-      <section className="bg-[#d2ede8] lg:sections-gutter-y">
+      <section className="lg:py-24">
         <div className="max-w-6xl mx-auto p-2 lg:p-0">
           <div>
-            <h2 className="text-[#DA1E49] font-bold text-xl tracking-normal mb-2 text-center uppercase lg:mb-5 lg:text-3xl">
+            <h2 className="text-[#04494C] font-[900] text-xl tracking-normal mb-2 text-center uppercase lg:mb-5 lg:text-3xl">
               Enjoy casino fun on the go with the 8k8 app
             </h2>
             <p className="mb-2 text-[#04494C] font-semibold text-justify lg:mb-5">
@@ -30,9 +32,9 @@ export default function Enjoy() {
       <section className="lg:sections-gutter-y">
         <div className="max-w-6xl mx-auto p-2 lg:p-0">
           <div>
-            <div className="flex flex-col items-center justify-between gap-2 lg:flex-row lg:gap-4">
+            <div className="flex flex-col items-center justify-between gap-2 lg:flex-row lg:gap-15">
               <div className="w-full text-justify lg:w-3/4">
-                <h3 className="text-center text-[#04494C] font-[900] uppercase mb-2 lg:mb-5 lg:text-xl">
+                <h3 className="text-center text-[#04494C] font-[900] uppercase mb-2 lg:mb-5 lg:text-2xl">
                   Full casino experience anywhere and at any time
                 </h3>
                 <p className="mb-2 lg:mb-5">
@@ -72,9 +74,9 @@ export default function Enjoy() {
               </div>
             </div>
 
-            <div className="flex flex-col items-center justify-between gap-2 lg:flex-row lg:gap-4">
+            <div className="flex flex-col items-center justify-between gap-2 lg:flex-row lg:gap-15">
               <div className="w-full text-justify lg:w-3/4">
-                <h3 className="text-center text-[#04494C] font-[900] uppercase mb-2 lg:mb-5 lg:text-xl">
+                <h3 className="text-center text-[#04494C] font-[900] uppercase mb-2 lg:mb-5 lg:text-2xl">
                   Safe and Secure on Mobile
                 </h3>
                 <p>
@@ -102,9 +104,9 @@ export default function Enjoy() {
               </div>
             </div>
 
-            <div className="flex flex-col items-center justify-between gap-2 lg:my-6 lg:flex-row lg:gap-4">
+            <div className="flex flex-col items-center justify-between gap-2 lg:my-6 lg:flex-row lg:gap-15">
               <div className="w-full text-justify lg:w-3/4">
-                <h3 className="text-center text-[#04494C] font-[900] uppercase mb-2 lg:mb-5 lg:text-xl">
+                <h3 className="text-center text-[#04494C] font-[900] uppercase mb-2 lg:mb-5 lg:text-2xl">
                   Play anywhere and at any time
                 </h3>
                 <p>
@@ -127,11 +129,11 @@ export default function Enjoy() {
 
             <HowToPlay />
 
-            <div className="mt-6">
-              <h3 className="text-center text-[#04494C] font-[900] uppercase mb-2 lg:mb-5 lg:text-xl">
+            <div className="mt-6 lg:mb-8">
+              <h3 className="text-center text-[#04494C] font-[900] uppercase mb-2 lg:mb-5 lg:text-2xl">
                 Mobile-friendly slot experience
               </h3>
-              <p>
+              <p className="text-justify mb-2 lg:mb-5">
                 We at 8k8 know that players want to be able to play their best
                 real money slots from anywhere. Because of this, our app works
                 perfectly on phones and tablets, so you can enjoy gaming without
@@ -140,7 +142,7 @@ export default function Enjoy() {
                 your phone&lsquo;s browser or download our mobile app.
               </p>
 
-              <p>
+              <p className="text-justify mb-2 lg:mb-5">
                 From the palm of your hand, you can use the mobile app to spin
                 the reels, make deposits, cash out winnings, and collect
                 bonuses. Everywhere you go, like on the bus, at the beach, or at
@@ -149,49 +151,12 @@ export default function Enjoy() {
             </div>
 
             <div>
-              <h3>Why should you play slots for real money at 8k8?</h3>
-              <ul className="list-decimal">
-                <li>
-                  <strong>Leading Software Providers:</strong>
-                  <p>
-                    The games we offer come from top software providers such as
-                    NetEnt, Microgaming, and Play&lsquo;n GO, so you can be sure
-                    of getting great gameplay and graphics.
-                  </p>
-                </li>
-
-                <li>
-                  <strong>Different Games:</strong>
-                  <p>
-                    We have a lot of different games for all kinds of players,
-                    from basic slots to progressive jackpots.
-                  </p>
-                </li>
-
-                <li>
-                  <strong>Bonuses and promotions:</strong>
-                  <p>
-                    Take advantage of great deals to increase your cash and play
-                    time.
-                  </p>
-                </li>
-
-                <li>
-                  <strong>Mobile Play:</strong>
-                  <p>
-                    You can play your favorite slot games on the go with our
-                    platform and app, which work well on phones.
-                  </p>
-                </li>
-
-                <li>
-                  <strong>Safe and Reliable:</strong>
-                  <p>
-                    Our strong security measures and safe payment choices keep
-                    your information and money safe at all times.
-                  </p>
-                </li>
-              </ul>
+              <h3 className="text-center text-[#04494C] font-[900] uppercase mb-2 lg:mb-8 lg:text-2xl">
+                Why should you play slots for real money at 8k8?
+              </h3>
+              <div>
+                <PlayWithRealMoney data={data} />
+              </div>
             </div>
           </div>
         </div>

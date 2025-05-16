@@ -1,18 +1,18 @@
 import React, { JSX } from "react";
 
-export type BonusesAndPromotion = {
+export type BonusesAndPromotionType = {
   id: number;
   title: string;
   content: JSX.Element | React.ReactNode;
 };
 
-export const data: BonusesAndPromotion[] = [
+export const data: BonusesAndPromotionType[] = [
   {
     id: 1,
     title: "Join the 8k8 Agent Exclusive Program and get rebates everyday!",
     content: (
       <>
-        <p className="text-sm font-semibold lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify lg:ml-3">
+        <p className="text-sm px-3 pb-2 text-wrap font-semibold  lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify">
           It&lsquo;s easy to start making money right away and doesn&lsquo;t
           cost anything. If you become an 8k8 dealer, you&lsquo;ll get extra
           benefits! You could win a single prize worth up to P88,888 and get
@@ -27,7 +27,7 @@ export const data: BonusesAndPromotion[] = [
     title: "Get the 8k8 mobile app and claim your free bonus!",
     content: (
       <>
-        <p className="text-sm font-semibold lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify lg:ml-3">
+        <p className="text-sm px-3 pb-2 text-wrap font-semibold  lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify">
           You can get a free bonus worth between P8.88 and P888 if you download
           the 8k8 mobile app. Enjoy this welcome bonus and begin your journey to
           winning!
@@ -40,7 +40,7 @@ export const data: BonusesAndPromotion[] = [
     title: "Get the 8k8 mobile app and claim your free bonus!",
     content: (
       <>
-        <p className="text-sm font-semibold lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify lg:ml-3">
+        <p className="text-sm px-3 pb-2 text-wrap font-semibold  lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify">
           When you join 8k8, we value you. Get a 100% bonus on your first
           payment. If you deposit P188, you&lsquo;ll get an extra P188 in bonus
           money to add to your account.
@@ -53,7 +53,7 @@ export const data: BonusesAndPromotion[] = [
     title: "Bonus for becoming a VIP member",
     content: (
       <>
-        <p className="text-sm font-semibold lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify lg:ml-3">
+        <p className="text-sm px-3 pb-2 text-wrap font-semibold  lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify">
           Get to the VIP level and get bonuses worth up to P800,000. If you make
           a big deposit, you become a VIP and get more perks. Upgrade now to get
           the most out of your benefits.
@@ -66,7 +66,7 @@ export const data: BonusesAndPromotion[] = [
     title: "Download now for easy access to betting!",
     content: (
       <>
-        <p className="text-sm font-semibold lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify lg:ml-3">
+        <p className="text-sm px-3 pb-2 text-wrap font-semibold  lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify">
           Easy access to gaming if you want to. Get 8k8 with 1.1.1.1 and play
           every chance you get.
         </p>
@@ -78,7 +78,7 @@ export const data: BonusesAndPromotion[] = [
     title: "The 8k8 Mystery Jackpot: Get an extra 1 billion!",
     content: (
       <>
-        <p className="text-sm font-semibold lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify lg:ml-3">
+        <p className="text-sm px-3 pb-2 text-wrap font-semibold  lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify">
           Every month on the 8th, 8k8 gives away a huge 1 billion bonus to some
           lucky people! You could win a lot of money with this random offer!
         </p>
@@ -90,7 +90,7 @@ export const data: BonusesAndPromotion[] = [
     title: "Member Day is every 18th of the month.",
     content: (
       <>
-        <p className="text-sm font-semibold lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify lg:ml-3">
+        <p className="text-sm px-3 pb-2 text-wrap font-semibold  lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify">
           On the 18th, which is Membership Day, all users will get a 1 billion
           bonus. Don&lsquo;t pass up this great chance to win!
         </p>
@@ -102,7 +102,7 @@ export const data: BonusesAndPromotion[] = [
     title: "Every month on the 28th, there is a big party.",
     content: (
       <>
-        <p className="text-sm font-semibold lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify lg:ml-3">
+        <p className="text-sm px-3 pb-2 text-wrap font-semibold  lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify">
           Every month on the 28th, there is a big 8k8 party where a random 1
           billion bonus is given away. Come and enjoy the fun!
         </p>
@@ -114,7 +114,7 @@ export const data: BonusesAndPromotion[] = [
     title: "Bonus for social media: Like and share on Facebook",
     content: (
       <>
-        <p className="text-sm font-semibold lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify lg:ml-3">
+        <p className="text-sm px-3 pb-2 text-wrap font-semibold  lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify">
           Join in the fun on Facebook! You can get a bonus of up to P588 with
           just one phone call and click. That&lsquo;s simple!
         </p>
@@ -126,7 +126,7 @@ export const data: BonusesAndPromotion[] = [
     title: "Bonuses every day on slots and fishing games",
     content: (
       <>
-        <p className="text-sm font-semibold lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify lg:ml-3">
+        <p className="text-sm px-3 pb-2 text-wrap font-semibold  lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify">
           You can get a bonus of up to P28,888 every day when you play your
           favorite fishing and slots games. You can always get something good,
           win or lose.
@@ -139,7 +139,7 @@ export const data: BonusesAndPromotion[] = [
     title: "Help with Loss: Get Your Money Back",
     content: (
       <>
-        <p className="text-sm font-semibold lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify lg:ml-3">
+        <p className="text-sm px-3 pb-2 text-wrap font-semibold  lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify">
           If you lose at slots or fishing games on 8k8, you can get rescue money
           to make up for it. Keep playing and lose as little as possible!
         </p>
@@ -151,7 +151,7 @@ export const data: BonusesAndPromotion[] = [
     title: "Super Win Plus Prize: When you win, we give you extra money.",
     content: (
       <>
-        <p className="text-sm font-semibold lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify lg:ml-3">
+        <p className="text-sm px-2 text-wrap font-semibold lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify lg:ml-3">
           When you win a lot, 8k8 makes your prize even bigger! As you play, you
           can get bonuses worth up to P15,888.
         </p>
@@ -163,7 +163,7 @@ export const data: BonusesAndPromotion[] = [
     title: "Up to 2.5% back right away.",
     content: (
       <>
-        <p className="text-sm font-semibold lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify lg:ml-3">
+        <p className="text-sm px-2 text-wrap font-semibold lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify lg:ml-3">
           Get up to 2.5% back on your bets right away, no matter if you win or
           lose. Keep making money while you play!
         </p>

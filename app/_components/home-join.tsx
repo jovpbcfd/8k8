@@ -1,9 +1,13 @@
+import SignUpGuide from "./home-signup-guid";
+
 export default function JoinNow() {
   return (
-    <section>
+    <section className="lg:sections-gutter-y">
       <div className="max-w-6xl mx-auto p-2 lg:p-0">
         <div>
-          <h2>You can join 8k8 right away after an easy signup.</h2>
+          <h2 className="text-[#04494C] font-[900] text-xl tracking-normal text-center uppercase mb-2 lg:mb-5 lg:text-3xl">
+            You can join 8k8 right away after an easy signup.
+          </h2>
           <p>
             It is easy, quick, and doesn&lsquo;t take any time to start playing
             at 8k8 Casino. Whether you&lsquo;ve played at online casinos before
@@ -14,57 +18,7 @@ export default function JoinNow() {
           </p>
         </div>
         <div>
-          <ul className="list-decimal">
-            <li>
-              <strong className="block">Signing up quickly</strong>
-              <p>
-                Just go to 8k8.com and click on the &quot;Sign Up&quot; button
-                to make an account. An easy-to-remember information like your
-                name, email address, and chosen username will be asked for. To
-                keep your account safe, you&lsquo;ll also need to pick a strong
-                password.
-              </p>
-            </li>
-
-            <li>
-              <strong className="block">Check your information</strong>
-              <p>
-                You&lsquo;ll get a confirmation email after you&lsquo;ve filled
-                out the signup form. To confirm your account, all you have to do
-                is click the link in the email. This step makes sure that your
-                account is safe and sound.
-              </p>
-            </li>
-
-            <li>
-              <strong className="block">Put down your first deposit.</strong>
-              <p>
-                After you sign up, you can make your first deposit using a safe
-                method of payment, like a credit or debit card, an e-wallet, or
-                a bank transfer. You can start playing your favorite games right
-                away after making your deposit.
-              </p>
-            </li>
-
-            <li>
-              <strong className="block">Get your bonus.</strong>
-              <p>
-                You can get special welcome bonuses like free spins or deposit
-                matches when you sign up as a new player. These bonuses give you
-                more chances to win and enjoy the casino.
-              </p>
-            </li>
-
-            <li>
-              <strong className="block">Get to Games Right Away</strong>
-              <p>
-                As soon as you log in, you can play all of 8k8&lsquo;s casino
-                games, from slots to live player tables. You can play online
-                games on your computer or your phone, so you can have fun no
-                matter where you are.
-              </p>
-            </li>
-          </ul>
+          <SignUpGuide />
         </div>
       </div>
     </section>

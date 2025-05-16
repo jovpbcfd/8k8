@@ -9,9 +9,9 @@ export default function FreeMoneyEveryday() {
           <p className="text-justify">
             You can get bonuses every day, so why wait for special events?
             8k8.com thinks that people who play games every day should get
-            benefits every day. That's why when you play slots and fishing
-            games, we give you bonuses of up to P28,888. There's always a chance
-            to win big whether you like spinning reels or throwing lines.
+            benefits every day. That&lsquo;s why when you play slots and fishing
+            games, we give you bonuses of up to P28,888. There&lsquo;s always a
+            chance to win big whether you like spinning reels or throwing lines.
           </p>
           <p className="text-justify">
             Our many slots and fishing games mean that everyone can find a way

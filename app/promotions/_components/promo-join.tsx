@@ -10,9 +10,9 @@ export default function Join() {
             Becoming an 8k8.com agent gives you access to a huge range of
             possibilities for free. You can get daily rebates just by telling
             people about our site and getting them to sign up and use it. The
-            best part? To start making money, you don't need any money up front.
-            This tool is made to help anyone in the 8k8 community who wants to
-            make money without doing much work.
+            best part? To start making money, you don&lsquo;t need any money up
+            front. This tool is made to help anyone in the 8k8 community who
+            wants to make money without doing much work.
           </p>
           <p className="text-justify">
             The agent-only program is set up to give you a lot of money for your

@@ -2,13 +2,13 @@ import WhyShouldPlay from "./home-play";
 
 export default function SubExperience() {
   return (
-    <section className="bg-[linear-gradient(to_bottom,_#d2ede8,_#eaf6ef,_#ffffff)] lg:sections-gutter-y">
+    <section className="bg-[#d2ede8] lg:sections-gutter-y">
       <div className="max-w-6xl mx-auto p-2 lg:p-0">
-        <div className="bg-[#e2f0db] text-justify p-6 rounded-lg">
-          <h3 className="text-center text-[#04494C] font-[900] uppercase mb-2 lg:mb-5 lg:text-xl">
+        <div className="text-justify rounded-lg">
+          <h3 className="text-center text-[#04494C] font-[900] uppercase mb-2 lg:mb-5 lg:text-2xl">
             Progressive Jackpots: Your Chance to Win a Lot of Money
           </h3>
-          <p className="mb-2 lg:mb-5">
+          <p className="mb-2 text-black lg:mb-5">
             At 8k8, we know that the chance to win huge amounts of money is one
             of the main reasons people play slots. Because of this, we have a
             number of progressive jackpot slots. These games have prizes that
@@ -18,7 +18,7 @@ export default function SubExperience() {
             money.
           </p>
 
-          <p className="mb-2 lg:mb-5">
+          <p className="mb-2 text-black lg:mb-5">
             Our progressive jackpot slots have fun themes and ways to play that
             let you enjoy the thrill of winning while you try to get that big
             prize that could change your life. At 8k8, some of the most popular
@@ -26,7 +26,7 @@ export default function SubExperience() {
             These games give you a chance to win a huge prize.
           </p>
 
-          <p className="mb-2 lg:mb-5">
+          <p className="mb-2 text-black lg:mb-5">
             8k8 always keeps things interesting by adding new slot games to our
             collection all the time. These games have the newest and most
             popular slot machine features. They have cutting-edge graphics, new
@@ -36,7 +36,7 @@ export default function SubExperience() {
             they come out.
           </p>
 
-          <p className="mb-2 lg:mb-5">
+          <p className="mb-2 text-black lg:mb-5">
             But our site has a lot more than just the newest games. It also has
             many of the well-known and loved old-school slot games. Still very
             popular are slot games with large payouts, excellent graphics, and
@@ -47,11 +47,11 @@ export default function SubExperience() {
           </p>
         </div>
 
-        <div className="bg-[#e2f0db] text-justify p-6 rounded-lg lg:mt-6">
-          <h3 className="text-center text-[#04494C] font-[900] uppercase mb-2 lg:mb-5 lg:text-xl">
+        <div className="text-justify rounded-lg lg:mt-6">
+          <h3 className="text-center text-[#04494C] font-[900] uppercase mb-2 lg:mb-5 lg:text-2xl">
             You can play mobile slots anywhere and at any time.
           </h3>
-          <p className="mb-2 lg:mb-5">
+          <p className="mb-2 text-black lg:mb-5">
             8k8&lsquo;s mobile-friendly software lets you play your favourite
             slot games on the go. You can play games on your phone or computer
             anytime you choose, including on the way to work, at home, or while
@@ -61,7 +61,7 @@ export default function SubExperience() {
             really get into it.
           </p>
 
-          <p className="mb-2 lg:mb-5">
+          <p className="mb-2 text-black lg:mb-5">
             It&lsquo;s easy to use the mobile interface, which lets you move
             around the games library, handle your account, and deposit or
             withdraw money—all from your phone or tablet. You can get to all the
