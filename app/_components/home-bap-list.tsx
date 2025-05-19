@@ -3,11 +3,11 @@ import useEmblaCarousel from "embla-carousel-react";
 import ClassNames from "embla-carousel-class-names";
 import Autoplay from "embla-carousel-autoplay";
 
-import {
-  NextButton,
-  PrevButton,
-  usePrevNextButtons,
-} from "@/components/arrow-button";
+// import {
+//   NextButton,
+//   PrevButton,
+//   usePrevNextButtons,
+// } from "@/components/arrow-button";
 import { DotButton, useDotButton } from "@/components/dot-button";
 
 import { BonusesAndPromotionType } from "@/data/bonusesAndPromotion";
@@ -27,12 +27,12 @@ export default function BandPCarousel(props: PropType) {
   const { selectedIndex, scrollSnaps, onDotButtonClick } =
     useDotButton(emblaApi);
 
-  const {
-    prevBtnDisabled,
-    nextBtnDisabled,
-    onPrevButtonClick,
-    onNextButtonClick,
-  } = usePrevNextButtons(emblaApi);
+  // const {
+  //   prevBtnDisabled,
+  //   nextBtnDisabled,
+  //   onPrevButtonClick,
+  //   onNextButtonClick,
+  // } = usePrevNextButtons(emblaApi);
   return (
     <>
       <div className="embla">
