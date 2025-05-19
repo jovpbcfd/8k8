@@ -27,7 +27,7 @@ export default function BonusesAndPromotion() {
           </div>
         </div>
         <div className="text-justify lg:text-center lg:mt-6">
-          <p>
+          <p className="font-bold text-[#04494C]">
             Sign up for 8k8 right now and take advantage of these great deals
             and freebies. Get the app right now and start playing!
           </p>

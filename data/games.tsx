@@ -11,6 +11,12 @@ export const games = [
           rounded-xl flex items-center justify-center text-sm text-white/60"
           >
             Image 1400x600
+            {/* <Image
+              src="/img/home/Spin your way to win in a world of slots.webp"
+              width={300}
+              height={100}
+              alt="Banner"
+            /> */}
           </div>
           <div className="lg:mt-5 lg:mb-5">
             <h3 className="text-pretty font-[900] text-white text-xl lg:text-4xl">
@@ -48,24 +54,87 @@ export const games = [
         </div>
       </>
     ),
-    className: "w-[300px] h-[200px] lg:w-[500px] lg:h-[300px] cursor-pointer",
+    className:
+      "w-[300px] h-[200px] lg:w-[500px] lg:h-[400px] place-self-end cursor-pointer",
     thumbnail: "/img/home/bg-check-one.webp",
     previewContent: (
       <>
-        <div className="absolute inset-0 flex flex-col gap-2 items-center justify-center transition-colors duration-300 ease-in-out hover:bg-white/50  lg:flex-row">
+        <div className="absolute inset-0 flex flex-col gap-2 items-center justify-center transition-colors duration-300 ease-in-out hover:bg-white/50 lg:flex-col">
           <Image
-            src="/img/Play Fishing Lottery at Panalobet.webp"
-            width={200}
-            height={200}
+            src="/img/home/Spin your way to win in a world of slots.webp"
+            width={250}
+            height={250}
             alt="sample"
             className="hidden lg:flex"
           />
           <h3
             className="text-[#04494C] text-center p-2 font-[900] text-2xl 
-          lg:text-balance
-          lg:text-4xl"
+          lg:w-[80%]
+          lg:uppercase
+          lg:text-3xl/8
+          "
           >
             Spin Your Way to Win in a World of Slots
+          </h3>
+        </div>
+      </>
+    ),
+  },
+  {
+    id: 34,
+    content: (
+      <>
+        <div className="lg:pt-8">
+          <div
+            className="w-full h-[100px] lg:w-full lg:h-[200px] border border-dashed border-white/20 
+          rounded-xl flex items-center justify-center text-sm text-white/60"
+          >
+            Image 1400x600
+          </div>
+          <div className="lg:mt-5 lg:mb-5">
+            <h3 className="text-pretty font-[900] text-white text-xl lg:text-4xl">
+              Instant Play: No Need to Download
+            </h3>
+            <div className="text-white text-justify">
+              <p className="mt-2">
+                The instant play option is one of the best things about the 8k8
+                Casino. You don't have to download anything to start playing
+                immediately. Once you log into your 8k8 account, you may
+                immediately play your preferred games in your web browser. This
+                implies you may use any device, whether your phone, a laptop, or
+                a desktop PC.
+              </p>
+              <p className="mt-2">
+                8k8 has a fully optimized mobile version of the casino for
+                mobile players. You can access all games, features, and account
+                control options from your phone or tablet. The mobile game is
+                easy to use and responsive, and the quality is not sacrificed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </>
+    ),
+    className: "w-[300px] h-[200px] lg:w-[500px] lg:h-[400px] cursor-pointer",
+    thumbnail: "/img/home/bg-check-four.webp",
+    previewContent: (
+      <>
+        <div className="absolute inset-0 flex flex-col gap-2 items-center justify-center transition-colors duration-300 ease-in-out hover:bg-white/50  lg:flex-col">
+          <Image
+            src="/img/home/Spin your way to win in a world of slots.webp"
+            width={250}
+            height={250}
+            alt="sample"
+            className="hidden lg:flex"
+          />
+          <h3
+            className="text-[#04494C] text-center p-2 font-[900] text-2xl 
+          lg:w-[80%]
+          lg:uppercase
+          lg:text-3xl/8
+            "
+          >
+            Instant Play: No Need to Download
           </h3>
         </div>
       </>
@@ -102,22 +171,25 @@ export const games = [
         </div>
       </>
     ),
-    className: "w-[300px] h-[200px] lg:w-[500px] lg:h-[300px] cursor-pointer",
+    className:
+      "w-[300px] h-[200px] lg:w-[500px] lg:h-[400px] place-self-end cursor-pointer",
     thumbnail: "/img/home/bg-check-two.webp",
     previewContent: (
       <>
-        <div className="absolute inset-0 flex flex-col gap-2 items-center justify-center transition-colors duration-300 ease-in-out hover:bg-white/50 lg:flex-row">
+        <div className="absolute inset-0 flex flex-col gap-2 items-center justify-center transition-colors duration-300 ease-in-out hover:bg-white/50 lg:flex-col">
           <Image
-            src="/img/Play Fishing Lottery at Panalobet.webp"
-            width={200}
-            height={200}
+            src="/img/home/Spin your way to win in a world of slots.webp"
+            width={250}
+            height={250}
             alt="sample"
             className="hidden lg:flex"
           />
           <h3
             className="text-[#04494C] text-center p-2 font-[900] text-2xl 
-          lg:text-balance
-          lg:text-3xl"
+          lg:w-[80%]
+          lg:uppercase
+          lg:text-3xl/8
+          "
           >
             Live dealer games: Let you play like you're in a real casino
           </h3>
@@ -161,82 +233,27 @@ export const games = [
         </div>
       </>
     ),
-    className: "w-[300px] h-[200px] lg:w-[500px] lg:h-[300px] cursor-pointer",
+    className:
+      "w-[300px] h-[200px] lg:w-[500px] lg:h-[400px] place-self-start cursor-pointer",
     thumbnail: "/img/home/bg-check-three.webp",
     previewContent: (
       <>
-        <div className="absolute inset-0 flex flex-col gap-2 items-center justify-center transition-colors duration-300 ease-in-out hover:bg-white/50  lg:flex-row">
+        <div className="absolute inset-0 flex flex-col gap-2 items-center justify-center transition-colors duration-300 ease-in-out hover:bg-white/50  lg:flex-col">
           <Image
-            src="/img/Play Fishing Lottery at Panalobet.webp"
-            width={200}
-            height={200}
+            src="/img/home/Spin your way to win in a world of slots.webp"
+            width={250}
+            height={250}
             alt="sample"
             className="hidden lg:flex"
           />
           <h3
             className="text-[#04494C] text-center p-2 font-[900] text-2xl 
-          lg:text-balance
-          lg:text-4xl"
+          lg:w-[80%]
+          lg:uppercase
+          lg:text-3xl/8
+          "
           >
             Table games: Classics that will never go out of style
-          </h3>
-        </div>
-      </>
-    ),
-  },
-  {
-    id: 34,
-    content: (
-      <>
-        <div className="lg:pt-8">
-          <div
-            className="w-full h-[100px] lg:w-full lg:h-[200px] border border-dashed border-white/20 
-          rounded-xl flex items-center justify-center text-sm text-white/60"
-          >
-            Image 1400x600
-          </div>
-          <div className="lg:mt-5 lg:mb-5">
-            <h3 className="text-pretty font-[900] text-white text-xl lg:text-4xl">
-              Instant Play: No Need to Download
-            </h3>
-            <div className="text-white text-justify">
-              <p className="mt-2">
-                The instant play option is one of the best things about the 8k8
-                Casino. You don't have to download anything to start playing
-                immediately. Once you log into your 8k8 account, you may
-                immediately play your preferred games in your web browser. This
-                implies you may use any device, whether your phone, a laptop, or
-                a desktop PC.
-              </p>
-              <p className="mt-2">
-                8k8 has a fully optimized mobile version of the casino for
-                mobile players. You can access all games, features, and account
-                control options from your phone or tablet. The mobile game is
-                easy to use and responsive, and the quality is not sacrificed.
-              </p>
-            </div>
-          </div>
-        </div>
-      </>
-    ),
-    className: "w-[300px] h-[200px] lg:w-[500px] lg:h-[300px] cursor-pointer",
-    thumbnail: "/img/home/bg-check-four.webp",
-    previewContent: (
-      <>
-        <div className="absolute inset-0 flex flex-col gap-2 items-center justify-center transition-colors duration-300 ease-in-out hover:bg-white/50  lg:flex-row">
-          <Image
-            src="/img/Play Fishing Lottery at Panalobet.webp"
-            width={200}
-            height={200}
-            alt="sample"
-            className="hidden lg:flex"
-          />
-          <h3
-            className="text-[#04494C] text-center p-2 font-[900] text-2xl 
-          lg:text-balance
-          lg:text-4xl"
-          >
-            Instant Play: No Need to Download
           </h3>
         </div>
       </>

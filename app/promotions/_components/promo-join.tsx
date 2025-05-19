@@ -9,7 +9,7 @@ export default function Join() {
               day!
             </h2>
             <div>
-              <p className="text-justify text-[#D2EDE8]">
+              <p className="text-justify text-white">
                 Becoming an 8k8.com agent gives you access to a huge range of
                 possibilities for free. You can get daily rebates just by
                 telling people about our site and getting them to sign up and
@@ -17,7 +17,7 @@ export default function Join() {
                 need any money up front. This tool is made to help anyone in the
                 8k8 community who wants to make money without doing much work.
               </p>
-              <p className="text-justify text-[#D2EDE8]">
+              <p className="text-justify text-white">
                 The agent-only program is set up to give you a lot of money for
                 your hard work. You could win a prize worth up to P88,888 all at
                 once, and as you get more active users, your bonus could go over

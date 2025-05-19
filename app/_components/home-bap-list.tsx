@@ -68,7 +68,7 @@ export default function BandPCarousel(props: PropType) {
         </div>
 
         <div className="embla__controls">
-          <div className="embla__buttons">
+          {/* <div className="embla__buttons">
             <PrevButton
               onClick={onPrevButtonClick}
               disabled={prevBtnDisabled}
@@ -77,17 +77,21 @@ export default function BandPCarousel(props: PropType) {
               onClick={onNextButtonClick}
               disabled={nextBtnDisabled}
             />
-          </div>
+          </div> */}
 
-          <div className="embla__dots">
+          <div className="embla__dots gap-2">
             {scrollSnaps.map((_, index) => (
               <DotButton
                 key={index}
                 onClick={() => onDotButtonClick(index)}
-                className={"embla__dot".concat(
-                  index === selectedIndex ? " embla__dot--selected" : ""
-                )}
-              />
+                className={`w-[30px] h-[30px] cursor-pointer  flex items-center justify-center ${
+                  index === selectedIndex
+                    ? "bg-[#04494C] text-white font-bold"
+                    : "bg-transparent text-[#04494C]"
+                }`}
+              >
+                <span className="text-inherit">{index + 1}</span>
+              </DotButton>
             ))}
           </div>
         </div>
