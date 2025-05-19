@@ -3,7 +3,7 @@ export default function BigParty() {
     <section className="lg:sections-gutter-y">
       <div className="max-w-6xl mx-auto p-2 lg:p-0">
         <div>
-          <h2 className="text-[#DA1E49] font-bold text-xl tracking-normal mb-2 text-center uppercase lg:mb-5 lg:text-3xl">
+          <h2 className="text-[#04494C] font-[900] text-xl tracking-normal text-center uppercase mb-2 lg:mb-5 lg:text-3xl">
             The 8k8 Party is a big party every 28th!
           </h2>
           <p className="text-justify">
