@@ -14,12 +14,14 @@ export default function WhyShouldPlay() {
           {firstEl.map((item, index) => (
             <div
               key={index}
-              className="bg-white shadow-lg rounded-xl text-center p-6"
+              className="bg-gradient-to-b from-[#cdfbf5] to-[#7fb1b0] shadow-lg rounded-xl text-center p-6"
             >
               <div>{item.image}</div>
-              <div>
-                <strong>{item.title}</strong>
-                <p>{item.content}</p>
+              <div className="text-[#04494C]">
+                <strong className="font-bold uppercase text-inherit">
+                  {item.title}
+                </strong>
+                <p className="text-inherit">{item.content}</p>
               </div>
             </div>
           ))}
@@ -28,12 +30,14 @@ export default function WhyShouldPlay() {
           {lastEl.map((item, index) => (
             <div
               key={index}
-              className="w-full bg-white shadow-lg rounded-xl text-center p-6"
+              className="w-full bg-gradient-to-b from-[#cdfbf5] to-[#7fb1b0] shadow-lg rounded-xl text-center p-6"
             >
               <div>{item.image}</div>
-              <div>
-                <strong>{item.title}</strong>
-                <p>{item.content}</p>
+              <div className="text-[#04494C]">
+                <strong className="font-bold uppercase text-inherit">
+                  {item.title}
+                </strong>
+                <p className="text-inherit">{item.content}</p>
               </div>
             </div>
           ))}

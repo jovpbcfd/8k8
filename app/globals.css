@@ -252,3 +252,54 @@
   opacity: 0.16;
 }
 
+@layer components {
+  .blog-content {
+    @apply px-3;
+  }
+
+  .blog-content p {
+    @apply pb-4;
+  }
+
+  .blog-content h2 {
+      @apply text-lg md:text-2xl md:mb-3;
+  }
+
+  .blog-content ol {
+      @apply list-decimal;
+  }
+
+  .blog-content ul {
+      @apply list-disc list-inside mb-4;
+  }
+
+  .blog-list-divider {
+    @apply relative after:content-[''] after:block after:absolute after:bg-gray-200/10 after:bottom-[-20px] after:h-[1px] after:w-full;
+  }
+}
+
+@layer utilities {
+  /* SIZING */
+
+  /* HEADINGS 3 AND BODY SIZE */
+  .heading-content {
+      @apply text-[1.5rem] md:text-[2.5rem];
+  }
+
+  .sub-heading-content {
+      @apply text-[1.5rem];
+  }
+
+  .body-content {
+      @apply text-[1.125rem];
+  }
+
+  /* LIST */
+  .list-heading-content {
+      @apply text-base md:text-[1.2rem];
+  }
+
+  .list-body-content {
+      @apply text-[1.125rem];
+  }
+}

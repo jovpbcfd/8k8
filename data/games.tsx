@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Minimize2 } from "lucide-react";
 
 export const games = [
   {
@@ -55,23 +56,27 @@ export const games = [
       </>
     ),
     className:
-      "w-[300px] h-[200px] lg:w-[500px] lg:h-[400px] place-self-end cursor-pointer",
+      "w-[300px] h-[200px] lg:w-[400px] lg:h-[400px] place-self-end cursor-pointer rounded-xl",
     thumbnail: "/img/home/bg-check-one.webp",
     previewContent: (
       <>
         <div className="absolute inset-0 flex flex-col gap-2 items-center justify-center transition-colors duration-300 ease-in-out hover:bg-white/50 lg:flex-col">
+          <button className="absolute right-5 top-5 text-white">
+            <Minimize2 className="text-[#04494C]/50" />
+          </button>
           <Image
             src="/img/home/Spin your way to win in a world of slots.webp"
-            width={250}
-            height={250}
+            width={300}
+            height={300}
             alt="sample"
             className="hidden lg:flex"
           />
           <h3
-            className="text-[#04494C] text-center p-2 font-[900] text-2xl 
+            className="text-white text-center font-[900] text-2xl 
           lg:w-[80%]
           lg:uppercase
-          lg:text-3xl/8
+          lg:text-2xl/8
+          lg:pb-6
           "
           >
             Spin Your Way to Win in a World of Slots
@@ -115,23 +120,28 @@ export const games = [
         </div>
       </>
     ),
-    className: "w-[300px] h-[200px] lg:w-[500px] lg:h-[400px] cursor-pointer",
+    className:
+      "w-[300px] h-[200px] lg:w-[400px] lg:h-[400px] cursor-pointer rounded-xl",
     thumbnail: "/img/home/bg-check-four.webp",
     previewContent: (
       <>
         <div className="absolute inset-0 flex flex-col gap-2 items-center justify-center transition-colors duration-300 ease-in-out hover:bg-white/50  lg:flex-col">
+          <button className="absolute right-5 top-5 text-white">
+            <Minimize2 className="text-[#04494C]/50" />
+          </button>
           <Image
             src="/img/home/Spin your way to win in a world of slots.webp"
-            width={250}
-            height={250}
+            width={300}
+            height={300}
             alt="sample"
             className="hidden lg:flex"
           />
           <h3
-            className="text-[#04494C] text-center p-2 font-[900] text-2xl 
+            className="text-white text-center font-[900] text-2xl 
           lg:w-[80%]
           lg:uppercase
-          lg:text-3xl/8
+          lg:text-2xl/8
+          lg:pb-6
             "
           >
             Instant Play: No Need to Download
@@ -172,23 +182,27 @@ export const games = [
       </>
     ),
     className:
-      "w-[300px] h-[200px] lg:w-[500px] lg:h-[400px] place-self-end cursor-pointer",
+      "w-[300px] h-[200px] lg:w-[400px] lg:h-[400px] place-self-end cursor-pointer rounded-xl",
     thumbnail: "/img/home/bg-check-two.webp",
     previewContent: (
       <>
         <div className="absolute inset-0 flex flex-col gap-2 items-center justify-center transition-colors duration-300 ease-in-out hover:bg-white/50 lg:flex-col">
+          <button className="absolute right-5 top-5 text-white">
+            <Minimize2 className="text-[#04494C]/50" />
+          </button>
           <Image
             src="/img/home/Spin your way to win in a world of slots.webp"
-            width={250}
-            height={250}
+            width={300}
+            height={300}
             alt="sample"
             className="hidden lg:flex"
           />
           <h3
-            className="text-[#04494C] text-center p-2 font-[900] text-2xl 
+            className="text-white text-center font-[900] text-2xl 
           lg:w-[80%]
           lg:uppercase
-          lg:text-3xl/8
+          lg:text-2xl/7
+          lg:pb-6
           "
           >
             Live dealer games: Let you play like you're in a real casino
@@ -234,23 +248,27 @@ export const games = [
       </>
     ),
     className:
-      "w-[300px] h-[200px] lg:w-[500px] lg:h-[400px] place-self-start cursor-pointer",
+      "w-[300px] h-[200px] lg:w-[400px] lg:h-[400px] place-self-start cursor-pointer rounded-xl",
     thumbnail: "/img/home/bg-check-three.webp",
     previewContent: (
       <>
         <div className="absolute inset-0 flex flex-col gap-2 items-center justify-center transition-colors duration-300 ease-in-out hover:bg-white/50  lg:flex-col">
+          <button className="absolute right-5 top-5 text-white">
+            <Minimize2 className="text-[#04494C]/50" />
+          </button>
           <Image
             src="/img/home/Spin your way to win in a world of slots.webp"
-            width={250}
-            height={250}
+            width={300}
+            height={300}
             alt="sample"
             className="hidden lg:flex"
           />
           <h3
-            className="text-[#04494C] text-center p-2 font-[900] text-2xl 
+            className="text-white text-center font-[900] text-2xl 
           lg:w-[80%]
           lg:uppercase
-          lg:text-3xl/8
+          lg:text-2xl/7
+          lg:pb-6
           "
           >
             Table games: Classics that will never go out of style

@@ -29,7 +29,13 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
   return (
     <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:p-10 lg:grid-cols-2 xl:grid-cols-2 gap-6 max-w-[2100px] mx-auto relative">
       {cards.map((card, i) => (
-        <div key={i} className={cn(card.className, "")}>
+        <div
+          key={i}
+          className={cn(
+            card.className,
+            "bg-gradient-to-b from-[#cbede8] to-[#036468]"
+          )}
+        >
           <motion.div
             onClick={() => handleClick(card)}
             className={cn(
@@ -37,8 +43,8 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
               selected?.id === card.id
                 ? "rounded-lg cursor-pointer absolute inset-0 h-2/3 w-full md:w-2/3 m-auto z-50 flex justify-center items-center flex-wrap flex-col"
                 : lastSelected?.id === card.id
-                ? "z-40 bg-white rounded-xl h-full w-full"
-                : "bg-white rounded-xl h-full w-full"
+                ? "z-40 bg-gradient-to-b from-[#cbede8] to-[#036468] shadow-lg rounded-xl h-full w-full"
+                : "bg-gradient-to-b from-[#cbede8] to-[#036468] shadow-lg rounded-xl h-full w-full"
             )}
             layoutId={`card-${card.id}`}
           >
