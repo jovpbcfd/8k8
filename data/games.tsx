@@ -130,7 +130,7 @@ export const games = [
             <Minimize2 className="text-[#04494C]/50" />
           </button>
           <Image
-            src="/img/home/Spin your way to win in a world of slots.webp"
+            src="/img/home/Instant play- No need to download.webp"
             width={300}
             height={300}
             alt="sample"
@@ -191,7 +191,7 @@ export const games = [
             <Minimize2 className="text-[#04494C]/50" />
           </button>
           <Image
-            src="/img/home/Spin your way to win in a world of slots.webp"
+            src="/img/home/Live dealer games- Let you play like you're in a real casino.webp"
             width={300}
             height={300}
             alt="sample"
@@ -257,7 +257,7 @@ export const games = [
             <Minimize2 className="text-[#04494C]/50" />
           </button>
           <Image
-            src="/img/home/Spin your way to win in a world of slots.webp"
+            src="/img/home/Table games- classics that will never go out of style.webp"
             width={300}
             height={300}
             alt="sample"

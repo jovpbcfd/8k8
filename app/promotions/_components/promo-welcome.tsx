@@ -1,6 +1,6 @@
 export default function Welcome() {
   return (
-    <section className="mt-[30px] lg:sections-gutter-y lg:mt-[40px]">
+    <section className="lg:sections-gutter-y">
       <div className="max-w-6xl mx-auto p-2 lg:p-0">
         <div className="flex flex-col items-center lg:flex-row gap-2 lg:gap-6">
           <div className="w-full lg:w-3/4">

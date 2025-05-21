@@ -1,4 +1,5 @@
 import EasyAccess from "./_components/promo-access";
+import Banner from "./_components/promo-banner";
 import BestDeals from "./_components/promo-best-deals";
 import FreeMoneyEveryday from "./_components/promo-freemoney";
 import GetFreeBonus from "./_components/promo-get";
@@ -17,6 +18,7 @@ import Welcome from "./_components/promo-welcome";
 export default function PromotionPage() {
   return (
     <>
+      <Banner />
       <Welcome />
       <Join />
       <GetFreeBonus />
