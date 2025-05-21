@@ -87,7 +87,7 @@ export default function BlogBody({ data }: { data: any }) {
             </p>
           </div>
         </div>
-        <h1 className="font-bold text-xl text-pretty text-white text-center md:text-4xl md:mb-4">
+        <h1 className="font-bold text-xl text-pretty text-white text-center md:text-4xl md:mb-4 lg:text-5xl">
           {data.title}
         </h1>
       </header>

@@ -303,3 +303,8 @@
       @apply text-[1.125rem];
   }
 }
+
+.custom-list li::marker {
+  color: oklch(90.5% 0.182 98.111); /* Change bullet color */
+  font-size: 2rem; /* Change bullet size */
+}
