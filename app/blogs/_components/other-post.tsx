@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
-import { urlFor } from "@/lib/sanity-client";
+// import Image from "next/image";
+// import { urlFor } from "@/lib/sanity-client";
 import { getFormattedDate } from "@/lib/utils";
 
 type Post = {
