@@ -68,7 +68,7 @@ function PostList({ post }: { post: Post }) {
           />
         </div>
         <div className="text-[#04494C] p-4 space-y-2">
-          <h2 className="text-xl font-[900] uppercase text-inherit group-hover:text-blue-600 transition-colors duration-200 line-clamp-1">
+          <h2 className="text-xl font-[900] uppercase text-inherit group-hover:text-yellow-300 transition-colors duration-200 line-clamp-1">
             {post.title}
           </h2>
           <p className="text-sm text-inherit font-bold line-clamp-2">

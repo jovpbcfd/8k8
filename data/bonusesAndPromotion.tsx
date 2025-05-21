@@ -37,7 +37,7 @@ export const data: BonusesAndPromotionType[] = [
   },
   {
     id: 3,
-    title: "Get the 8k8 mobile app and claim your free bonus!",
+    title: "Happy to have you as a new member! Double your first deposit!",
     content: (
       <>
         <p className="text-sm px-3 pb-2 text-wrap font-semibold  lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify">
