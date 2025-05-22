@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Welcome() {
   return (
     <section className="mt-[30px] lg:pb-[40px]">
@@ -20,7 +22,7 @@ export default function Welcome() {
                 or this is your first time. It has a lot of games and features
                 that will keep you entertained from the moment you log in.
               </p>
-              <p>
+              <p className="lg:mt-2">
                 You can play a huge number of different games on our platform,
                 which will keep you busy for hours. We have a lot of different
                 games, from Blackjack, Roulette, and Baccarat to video slots.
@@ -34,15 +36,20 @@ export default function Welcome() {
             </div>
           </div>
           <div
-            className="w-full h-full lg:w-[300px] lg:h-[300px] border border-dashed border-black/20 
+            className="w-full h-full lg:w-[400px] lg:h-[400px] 
           rounded-xl flex items-center justify-center text-sm text-black/60"
           >
-            Image 300x300
+            <Image
+              src="/img/home/Welcome to 8k8 – Your Premier Online Casino Experience.webp"
+              width={400}
+              height={400}
+              alt="Welcome to 8k8 – Your Premier Online Casino Experience"
+            />
           </div>
         </div>
 
-        <div className="text-justify lg:mt-5">
-          <p className="mt-2 break-normal whitespace-normal lg:mt-4">
+        <div className="text-justify">
+          <p className="break-normal whitespace-normal">
             If you like to play while you&lsquo;re on the go, 8k8&lsquo;s mobile
             app will make sure you never miss a game. Our app is made to give
             you the same smooth and immersive experience as the PC version. You
