@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
 import ClassNames from "embla-carousel-class-names";
 import Autoplay from "embla-carousel-autoplay";
@@ -45,10 +46,16 @@ export default function BandPCarousel(props: PropType) {
               >
                 <div className="flex gap-2 flex-col justify-around items-center">
                   <div
-                    className="w-full h-full lg:w-[500px] lg:h-[250px] border border-dashed border-white/20 
-          rounded-xl flex items-center justify-center text-sm text-white/60"
+                    className="w-full h-full lg:w-full lg:h-[250px] 
+          rounded-xl text-sm text-white/60 lg:mr-1"
                   >
-                    Image 1000x500
+                    <Image
+                      src={item.link}
+                      width={520}
+                      height={250}
+                      alt={item.title}
+                      className="rounded-md"
+                    />
                   </div>
                   <div className="text-[#04494C] text-wrap w-full space-y-2">
                     <h3 className="flex items-center gap-2">

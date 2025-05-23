@@ -2,6 +2,7 @@ import React, { JSX } from "react";
 
 export type BonusesAndPromotionType = {
   id: number;
+  link: string;
   title: string;
   content: JSX.Element | React.ReactNode;
 };
@@ -9,6 +10,7 @@ export type BonusesAndPromotionType = {
 export const data: BonusesAndPromotionType[] = [
   {
     id: 1,
+    link: "/img/home/bandp/1. Join the 8k8 Agent Exclusive Program and get rebates every day!_WEBP.webp",
     title: "Join the 8k8 Agent Exclusive Program and get rebates everyday!",
     content: (
       <>
@@ -24,6 +26,7 @@ export const data: BonusesAndPromotionType[] = [
   },
   {
     id: 2,
+    link: "/img/home/bandp/2. Get the 8k8 mobile app and claim your free bonus!_WEBP.webp",
     title: "Get the 8k8 mobile app and claim your free bonus!",
     content: (
       <>
@@ -37,6 +40,7 @@ export const data: BonusesAndPromotionType[] = [
   },
   {
     id: 3,
+    link: "/img/home/bandp/3. Happy to have you as a new member Double your first deposit_WEBP.webp",
     title: "Happy to have you as a new member! Double your first deposit!",
     content: (
       <>
@@ -51,6 +55,7 @@ export const data: BonusesAndPromotionType[] = [
   {
     id: 4,
     title: "Bonus for becoming a VIP member",
+    link: "/img/home/bandp/4. Bonus for becoming a VIP member_WEBP.webp",
     content: (
       <>
         <p className="text-sm px-3 pb-2 text-wrap font-semibold  lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify">
@@ -63,6 +68,7 @@ export const data: BonusesAndPromotionType[] = [
   },
   {
     id: 5,
+    link: "/img/home/bandp/5. Download now for easy access to betting!_WEBP.webp",
     title: "Download now for easy access to betting!",
     content: (
       <>
@@ -75,6 +81,7 @@ export const data: BonusesAndPromotionType[] = [
   },
   {
     id: 6,
+    link: "/img/home/bandp/6. The 8k8 Mystery Jackpot Get an extra 1 billion_WEBP.webp",
     title: "The 8k8 Mystery Jackpot: Get an extra 1 billion!",
     content: (
       <>
@@ -87,6 +94,7 @@ export const data: BonusesAndPromotionType[] = [
   },
   {
     id: 7,
+    link: "/img/home/bandp/7. Member Day is every 18th of the month.webp",
     title: "Member Day is every 18th of the month.",
     content: (
       <>
@@ -99,6 +107,7 @@ export const data: BonusesAndPromotionType[] = [
   },
   {
     id: 8,
+    link: "/img/home/bandp/8. Every month on the 28th, there is a big party.webp",
     title: "Every month on the 28th, there is a big party.",
     content: (
       <>
@@ -111,6 +120,7 @@ export const data: BonusesAndPromotionType[] = [
   },
   {
     id: 9,
+    link: "/img/home/bandp/9. Bonus for Social Media Like and Share on Facebook.webp",
     title: "Bonus for social media: Like and share on Facebook",
     content: (
       <>
@@ -123,6 +133,7 @@ export const data: BonusesAndPromotionType[] = [
   },
   {
     id: 10,
+    link: "/img/home/bandp/10. Bonuses every day on slots and fishing games.webp",
     title: "Bonuses every day on slots and fishing games",
     content: (
       <>
@@ -136,6 +147,7 @@ export const data: BonusesAndPromotionType[] = [
   },
   {
     id: 11,
+    link: "/img/home/bandp/3. Happy to have you as a new member Double your first deposit_WEBP.webp",
     title: "Help with Loss: Get Your Money Back",
     content: (
       <>
@@ -148,6 +160,7 @@ export const data: BonusesAndPromotionType[] = [
   },
   {
     id: 12,
+    link: "/img/home/bandp/3. Happy to have you as a new member Double your first deposit_WEBP.webp",
     title: "Super Win Plus Prize: When you win, we give you extra money.",
     content: (
       <>
@@ -160,6 +173,7 @@ export const data: BonusesAndPromotionType[] = [
   },
   {
     id: 13,
+    link: "/img/home/bandp/3. Happy to have you as a new member Double your first deposit_WEBP.webp",
     title: "Up to 2.5% back right away.",
     content: (
       <>
