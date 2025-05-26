@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Join() {
   return (
     <section className="bg-[#04494C] lg:sections-gutter-y">
@@ -29,10 +31,17 @@ export default function Join() {
             </div>
           </div>
           <div
-            className="w-full h-full lg:w-[300px] lg:h-[300px] border border-dashed border-white/20 
+            className="w-full h-full lg:w-[300px] lg:h-full
           rounded-xl flex items-center justify-center text-sm text-white/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/promotion/NO. 753_Join the 8k8.com Agent Exclusive Program and get rebates every day!.webp"
+              width={300}
+              height={300}
+              alt="
+            Join the 8k8.com Agent Exclusive Program and get rebates every day
+            "
+            />
           </div>
         </div>
       </div>

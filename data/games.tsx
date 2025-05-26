@@ -8,19 +8,18 @@ export const games = [
       <>
         <div className="lg:pt-8">
           <div
-            className="w-full h-[100px] lg:w-full lg:h-[200px] border border-dashed border-white/20 
+            className="relative overflow-hidden w-full h-[100px] lg:w-full lg:h-[300px] 
           rounded-xl flex items-center justify-center text-sm text-white/60"
           >
-            Image 1400x600
-            {/* <Image
-              src="/img/home/Spin your way to win in a world of slots.webp"
-              width={300}
-              height={100}
+            <Image
+              src="/img/home/Spin your way to win in a world of slots 1400x600.webp"
+              fill
               alt="Banner"
-            /> */}
+              className="object-contain w-full"
+            />
           </div>
           <div className="lg:mt-5 lg:mb-5">
-            <h3 className="text-pretty font-[900] text-white text-xl lg:text-4xl">
+            <h3 className="text-pretty font-[900] text-center mx-auto text-white text-xl lg:text-4xl lg:w-[70%] lg:mb-6">
               Spin Your Way to Win in a World of Slots
             </h3>
             <div className="text-white text-justify">
@@ -91,13 +90,18 @@ export const games = [
       <>
         <div className="lg:pt-8">
           <div
-            className="w-full h-[100px] lg:w-full lg:h-[200px] border border-dashed border-white/20 
+            className="relative overflow-hidden w-full h-[100px] lg:w-full lg:h-[300px] 
           rounded-xl flex items-center justify-center text-sm text-white/60"
           >
-            Image 1400x600
+            <Image
+              src="/img/home/Instant play- No need to download 1400X600.webp"
+              fill
+              alt="Banner"
+              className="object-contain w-full"
+            />
           </div>
           <div className="lg:mt-5 lg:mb-5">
-            <h3 className="text-pretty font-[900] text-white text-xl lg:text-4xl">
+            <h3 className="text-pretty font-[900] text-center mx-auto text-white text-xl lg:text-4xl lg:mb-6">
               Instant Play: No Need to Download
             </h3>
             <div className="text-white text-justify">
@@ -156,13 +160,18 @@ export const games = [
       <>
         <div className="lg:pt-8">
           <div
-            className="w-full h-[100px] lg:w-full lg:h-[200px] border border-dashed border-white/20 
+            className="relative overflow-hidden w-full h-[100px] lg:w-full lg:h-[300px] 
           rounded-xl flex items-center justify-center text-sm text-white/60"
           >
-            Image 1400x600
+            <Image
+              src="/img/home/Live dealer games- Let you play like you're in a real casino 1400x600.webp"
+              fill
+              alt="Banner"
+              className="object-contain w-full"
+            />
           </div>
           <div className="lg:mt-5 lg:mb-5">
-            <h3 className="text-pretty font-[900] text-white text-xl lg:text-4xl">
+            <h3 className="text-pretty font-[900] text-center mx-auto text-white text-xl lg:text-4xl lg:mb-6">
               Live dealer games: Let you play like you're in a real casino.
             </h3>
             <div className="text-white text-justify">
@@ -217,13 +226,18 @@ export const games = [
       <>
         <div className="lg:pt-8">
           <div
-            className="w-full h-[100px] lg:w-full lg:h-[200px] border border-dashed border-white/20 
+            className="relative overflow-hidden w-full h-[100px] lg:w-full lg:h-[300px] 
           rounded-xl flex items-center justify-center text-sm text-white/60"
           >
-            Image 1400x600
+            <Image
+              src="/img/home/Table games- classics that will never go out of style 1400x600.webp"
+              fill
+              alt="Banner"
+              className="object-contain w-full"
+            />
           </div>
           <div className="lg:mt-5 lg:mb-5">
-            <h3 className="text-pretty font-[900] text-white text-xl lg:text-4xl">
+            <h3 className="text-pretty font-[900] text-center mx-auto text-white text-xl lg:text-4xl lg:w-[80%] lg:mb-6">
               Table games: Classics that will never go out of style
             </h3>
             <div className="text-white text-justify">

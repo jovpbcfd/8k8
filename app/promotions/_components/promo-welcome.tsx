@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Welcome() {
   return (
     <section className="lg:sections-gutter-y">
@@ -36,10 +38,15 @@ export default function Welcome() {
             </div>
           </div>
           <div
-            className="w-full h-full lg:w-[300px] lg:h-[300px] border border-dashed border-black/20 
+            className="w-full h-full lg:w-[300px] lg:h-full 
           rounded-xl flex items-center justify-center text-sm text-black/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/promotion/NO. 752_Welcome to 8k8.com - Your Ultimate Destination for Rewards and Bonuses!.webp"
+              width={300}
+              height={300}
+              alt="Welcome to 8k8.com - Your Ultimate Destination for Rewards and Bonuses"
+            />
           </div>
         </div>
       </div>

@@ -147,7 +147,7 @@ export const data: BonusesAndPromotionType[] = [
   },
   {
     id: 11,
-    link: "/img/home/bandp/3. Happy to have you as a new member Double your first deposit_WEBP.webp",
+    link: "/img/home/bandp/11. Help with Loss Get Your Money Back.webp",
     title: "Help with Loss: Get Your Money Back",
     content: (
       <>
@@ -160,8 +160,8 @@ export const data: BonusesAndPromotionType[] = [
   },
   {
     id: 12,
-    link: "/img/home/bandp/3. Happy to have you as a new member Double your first deposit_WEBP.webp",
-    title: "Super Win Plus Prize: When you win, we give you extra money.",
+    link: "/img/home/bandp/12. Super Win Plus Prize When you win, we give you extra money.webp",
+    title: "Super Win Plus Prize When you win, we give you extra money.",
     content: (
       <>
         <p className="text-sm px-2 text-wrap font-semibold lg:text-base text-[#04494C]/90 max-w-xl lg:text-justify lg:ml-3">
@@ -173,7 +173,7 @@ export const data: BonusesAndPromotionType[] = [
   },
   {
     id: 13,
-    link: "/img/home/bandp/3. Happy to have you as a new member Double your first deposit_WEBP.webp",
+    link: "/img/home/bandp/13. Up.webp",
     title: "Up to 2.5% back right away.",
     content: (
       <>
