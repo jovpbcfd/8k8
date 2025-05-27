@@ -24,7 +24,7 @@ export default function Enjoy() {
           </div>
         </div>
       </section>
-      <section className="bg-[url(/img/home/BG2-sample.png)] bg-cover bg-no-repeat">
+      <section className="bg-[url(/img/home/Simple-to-download-get-right-away-background-final.webp)] bg-cover bg-no-repeat">
         <div className="max-w-6xl mx-auto p-2 lg:p-0">
           <Download />
         </div>

@@ -60,7 +60,7 @@ export default async function Page({
     <div className="bg-[#04494C]">
       <div className="max-w-[1120px] shadow-lx mx-auto">
         <div className="bg-gradient-to-b from-[#036468] to-[#036468]">
-          <article>
+          <article className="bg-[url(/img/blog/8k8-website.webp)]">
             <BlogBody data={currentPost} />
           </article>
           <div className="lg:py-6">

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function HowToPlay() {
   return (
     <div className="lg:my-10">
@@ -13,10 +15,15 @@ export default function HowToPlay() {
       <ul className="grid grid-cols-1 gap-4 lg:grid-cols-2">
         <li className="bg-[linear-gradient(to_bottom,_#d2ede8,_#eaf6ef,_#ffffff)] flex flex-col lg:flex-row items-center gap-4 p-5 rounded-lg shadow-md">
           <div
-            className="w-full h-full lg:w-[200px] lg:h-[200px] border border-dashed border-black/20 
-                rounded-xl flex items-center justify-center text-sm text-black/60"
+            className="w-full h-full lg:w-[200px] lg:h-full 
+                rounded-xl flex items-start justify-center text-sm text-black/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/home/playslots/1 Join 8k8 or Make an Account 1080X1080.webp"
+              width={200}
+              height={200}
+              alt="Join 8k8 or Make an Account"
+            />
           </div>
           <div className="self-start w-full text-justify lg:w-3/4">
             <h4 className="text-[#04494C] font-[900] mb-2 lg:text-xl">
@@ -33,10 +40,15 @@ export default function HowToPlay() {
 
         <li className="bg-[linear-gradient(to_bottom,_#d2ede8,_#eaf6ef,_#ffffff)] flex flex flex-col lg:flex-row items-center gap-4 p-5 rounded-lg shadow-md">
           <div
-            className="w-full h-full lg:w-[200px] lg:h-[200px] border border-dashed border-black/20 
-                rounded-xl flex items-center justify-center text-sm text-black/60"
+            className="w-full h-full lg:w-[200px] lg:h-[200px] 
+                rounded-xl flex items-start justify-center text-sm text-black/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/home/playslots/2 Put money down 1080x1080.webp"
+              width={200}
+              height={200}
+              alt="Put money down"
+            />
           </div>
           <div className="self-start w-full text-justify lg:w-3/4">
             <h4 className="text-[#04494C] font-[900] mb-2 lg:text-xl">
@@ -54,10 +66,15 @@ export default function HowToPlay() {
 
         <li className="bg-[linear-gradient(to_bottom,_#d2ede8,_#eaf6ef,_#ffffff)] flex flex flex-col lg:flex-row items-center gap-4 p-5 rounded-lg shadow-md">
           <div
-            className="w-full h-full lg:w-[200px] lg:h-[200px] border border-dashed border-black/20 
-                rounded-xl flex items-center justify-center text-sm text-black/60"
+            className="w-full h-full lg:w-[200px] lg:h-[200px] 
+                rounded-xl flex items-start justify-center text-sm text-black/60"
           >
-            Image1080x1080
+            <Image
+              src="/img/home/playslots/3 Pick a Slot Game 1080x1080.webp"
+              width={200}
+              height={200}
+              alt="Pick a Slot Game"
+            />
           </div>
           <div className="self-start w-full text-justify lg:w-3/4">
             <h4 className="text-[#04494C] font-[900] mb-2 lg:text-xl">
@@ -74,10 +91,15 @@ export default function HowToPlay() {
 
         <li className="bg-[linear-gradient(to_bottom,_#d2ede8,_#eaf6ef,_#ffffff)] flex flex flex-col lg:flex-row items-center gap-4 p-4 rounded-lg shadow-md">
           <div
-            className="w-full h-full lg:w-[200px] lg:h-[200px] border border-dashed border-black/20 
-                rounded-xl flex items-center justify-center text-sm text-black/60"
+            className="w-full h-full lg:w-[200px] lg:h-[200px] 
+                rounded-xl flex items-start justify-center text-sm text-black/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/home/playslots/4 Adjust your Bet size 1080x1080.webp"
+              width={200}
+              height={200}
+              alt="Adjust your Bet size"
+            />
           </div>
           <div className="self-start w-full text-justify lg:w-3/4">
             <h4 className="text-[#04494C] font-[900] mb-2 lg:text-xl">
@@ -94,10 +116,15 @@ export default function HowToPlay() {
 
         <li className="bg-[linear-gradient(to_bottom,_#d2ede8,_#eaf6ef,_#ffffff)] flex flex flex-col lg:flex-row items-center gap-4 p-5 rounded-lg shadow-md">
           <div
-            className="w-full h-full lg:w-[200px] lg:h-[200px] border border-dashed border-black/20 
-                rounded-xl flex items-center justify-center text-sm text-black/60"
+            className="w-full h-full lg:w-[200px] lg:h-[200px] 
+                rounded-xl flex items-start justify-center text-sm text-black/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/home/playslots/5 Spin the Reels 1080x1080.webp"
+              width={200}
+              height={200}
+              alt="Spin the Reels"
+            />
           </div>
           <div className="self-start w-full text-justify lg:w-3/4">
             <h4 className="text-[#04494C] font-[900] mb-2 lg:text-xl">
@@ -116,10 +143,15 @@ export default function HowToPlay() {
 
         <li className="bg-[linear-gradient(to_bottom,_#d2ede8,_#eaf6ef,_#ffffff)] flex flex flex-col lg:flex-row items-center gap-4 p-5 rounded-lg shadow-md">
           <div
-            className="w-full h-full lg:w-[200px] lg:h-[200px] border border-dashed border-black/20 
-                rounded-xl flex items-center justify-center text-sm text-black/60"
+            className="w-full h-full lg:w-[200px] lg:h-[200px] 
+                rounded-xl flex items-start justify-center text-sm text-black/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/home/playslots/6 Take your Winnings 1080x1080.webp"
+              width={200}
+              height={200}
+              alt="Take your Winnings"
+            />
           </div>
           <div className="self-start w-full text-justify lg:w-3/4">
             <h4 className="text-[#04494C] font-[900] mb-2 lg:text-xl">

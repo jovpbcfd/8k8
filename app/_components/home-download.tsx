@@ -25,11 +25,11 @@ export default function Download() {
           you&lsquo;re on the go.
         </p>
       </div>
-      <div className="hidden w-full h-full lg:w-[350px] lg:h-[464px] lg:flex">
+      <div className="hidden w-full h-full lg:w-[571px] lg:h-[500px] lg:flex">
         <Image
-          src="/img/home/phone-sample.png"
-          width={350}
-          height={34}
+          src="/img/home/Simple to download, get right away_webp.webp"
+          width={571}
+          height={500}
           alt="Phone sample"
         />
       </div>

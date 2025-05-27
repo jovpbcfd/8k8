@@ -40,7 +40,7 @@ export default function Welcome() {
           rounded-xl flex items-center justify-center text-sm text-black/60"
           >
             <Image
-              src="/img/home/Welcome to 8k8 – Your Premier Online Casino Experience.webp"
+              src="/img/home/Welcome to 8k8 – Your Premier Online Casino Experience 1080x1080.webp"
               width={400}
               height={400}
               alt="Welcome to 8k8 – Your Premier Online Casino Experience"
