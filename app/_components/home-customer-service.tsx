@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function CustomerService() {
   return (
     <section className="bg-[#04494C]">
@@ -34,11 +36,16 @@ export default function CustomerService() {
             </div>
           </div>
           <div
-            className="w-full h-[210px] text-white border border-white/80 rounded-md border-dashed flex items-center justify-center
+            className="w-full h-[210px] text-white rounded-md border-dashed flex items-center justify-center
           lg:w-[500px] lg:h-[420px]
           "
           >
-            Image 1000x840
+            <Image
+              src="/img/home/NO.749_Customer Service 8k8 Can Help You 24 7 Get in Touch Anytime.webp"
+              width={500}
+              height={420}
+              alt="Customer Service 8k8 Can Help You 24 7 Get in Touch Anytime"
+            />
           </div>
         </div>
       </div>

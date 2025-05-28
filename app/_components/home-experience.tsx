@@ -1,4 +1,5 @@
 import SubExperience from "./home-sub-experience";
+import Image from "next/image";
 
 export default function Experience() {
   return (
@@ -49,10 +50,15 @@ export default function Experience() {
                 </p>
               </div>
               <div
-                className="w-full h-full lg:w-[300px] lg:h-[300px] border border-dashed border-black/20 
+                className="w-full h-full lg:w-[300px] lg:h-full 
           rounded-xl flex items-center justify-center text-sm text-black/60"
               >
-                Image 1080x1080
+                <Image
+                  src="/img/home/Experience the best slot games at 8k8.webp"
+                  width={300}
+                  height={300}
+                  alt="Experience the best slot games at 8k8"
+                />
               </div>
             </div>
           </div>

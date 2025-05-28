@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { data } from "@/data/signup-guide";
-// import Image from "next/image";
+import Image from "next/image";
 
 export default function StepsGuide() {
   const [activeStep, setActiveStep] = useState(1);
@@ -55,8 +55,14 @@ export default function StepsGuide() {
                 transition={{ duration: 0.3 }}
               >
                 <div className="w-full md:w-[45%] flex items-center justify-center">
-                  <div className="w-full h-[300px] text-black border border-black/80 rounded-md border-dashed flex items-center justify-center">
-                    Image 1128x600
+                  <div className="w-full h-full text-black rounded-md border-dashed flex items-center justify-center">
+                    <Image
+                      src={step.path}
+                      width={564}
+                      height={300}
+                      alt={step.title}
+                      className="rounded-lg shadow-xl"
+                    />
                   </div>
                 </div>
 

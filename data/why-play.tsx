@@ -13,7 +13,7 @@ export const data: WhyPlay[] = [
       <>
         <div className="w-full h-full lg:w-[250px] lg:h-[250px] mx-auto flex items-center justify-center text-sm text-black/60">
           <Image
-            src="/img/home/Join the Panalobet Community-sample.webp"
+            src="/img/home/shouldplay/NO.739_Variety of different games.webp"
             width={250}
             height={250}
             alt="Banner"
@@ -30,7 +30,7 @@ export const data: WhyPlay[] = [
       <>
         <div className="w-full h-full lg:w-[250px] lg:h-[250px] mx-auto flex items-center justify-center text-sm text-black/60">
           <Image
-            src="/img/home/Join the Panalobet Community-sample.webp"
+            src="/img/home/shouldplay/NO.739_Very Good Software Providers.webp"
             width={250}
             height={250}
             alt="Banner"
@@ -47,7 +47,7 @@ export const data: WhyPlay[] = [
       <>
         <div className="w-full h-full lg:w-[250px] lg:h-[250px] mx-auto flex items-center justify-center text-sm text-black/60">
           <Image
-            src="/img/home/Join the Panalobet Community-sample.webp"
+            src="/img/home/shouldplay/NO.739_ Phone-Friendly.webp"
             width={250}
             height={250}
             alt="Banner"
@@ -63,7 +63,7 @@ export const data: WhyPlay[] = [
       <>
         <div className="w-full h-full lg:w-[250px] lg:h-[250px] mx-auto flex items-center justify-center text-sm text-black/60">
           <Image
-            src="/img/home/Join the Panalobet Community-sample.webp"
+            src="/img/home/shouldplay/NO.739_Exciting Bonuses.webp"
             width={250}
             height={250}
             alt="Banner"
@@ -80,7 +80,7 @@ export const data: WhyPlay[] = [
       <>
         <div className="w-full h-full lg:w-[250px] lg:h-[250px] mx-auto flex items-center justify-center text-sm text-black/60">
           <Image
-            src="/img/home/Join the Panalobet Community-sample.webp"
+            src="/img/home/shouldplay/NO.739_Safe and Reliable.webp"
             width={250}
             height={250}
             alt="Banner"

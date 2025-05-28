@@ -2,6 +2,7 @@ import Download from "./home-download";
 import HowToPlay from "./home-how";
 import PlayWithRealMoney from "./home-play-real-money";
 import { data } from "@/data/real-money";
+import Image from "next/image";
 
 export default function Enjoy() {
   return (
@@ -67,10 +68,15 @@ export default function Enjoy() {
                 </p>
               </div>
               <div
-                className="w-full h-full lg:w-[300px] lg:h-[300px] border border-dashed border-black/20 
+                className="w-full h-full lg:w-[300px] lg:h-full 
                 rounded-xl flex items-center justify-center text-sm text-black/60"
               >
-                Image 1080x1080
+                <Image
+                  src="/img/home/NO.741__Full casino experince anywhere and at any time.webp"
+                  width={300}
+                  height={300}
+                  alt="Full casino experince anywhere and at any time"
+                />
               </div>
             </div>
 
@@ -97,10 +103,15 @@ export default function Enjoy() {
                 </p>
               </div>
               <div
-                className="w-full h-full lg:w-[300px] lg:h-[300px] border border-dashed border-black/20 
+                className="w-full h-full lg:w-[300px] lg:h-full 
                 rounded-xl flex items-center justify-center text-sm text-black/60"
               >
-                Image 1080x1080
+                <Image
+                  src="/img/home/NO.742__Safe and Secure on Mobile.webp"
+                  width={300}
+                  height={300}
+                  alt="Safe and Secure on Mobile"
+                />
               </div>
             </div>
 
@@ -120,10 +131,15 @@ export default function Enjoy() {
                 </p>
               </div>
               <div
-                className="w-full h-full lg:w-[300px] lg:h-[300px] border border-dashed border-black/20 
+                className="w-full h-full lg:w-[300px] lg:h-full 
                 rounded-xl flex items-center justify-center text-sm text-black/60"
               >
-                Image 1080x1080
+                <Image
+                  src="/img/home/NO.743_Play anywhere and at any time.webp"
+                  width={300}
+                  height={300}
+                  alt="Play anywhere and at any time"
+                />
               </div>
             </div>
 

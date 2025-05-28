@@ -18,7 +18,7 @@ export default function WhyShouldPlay() {
             >
               <div>{item.image}</div>
               <div className="text-[#04494C]">
-                <strong className="font-bold uppercase text-inherit">
+                <strong className="font-[900] uppercase text-inherit lg:text-lg">
                   {item.title}
                 </strong>
                 <p className="text-inherit">{item.content}</p>
@@ -34,7 +34,7 @@ export default function WhyShouldPlay() {
             >
               <div>{item.image}</div>
               <div className="text-[#04494C]">
-                <strong className="font-bold uppercase text-inherit">
+                <strong className="font-[900] uppercase text-inherit lg:text-lg">
                   {item.title}
                 </strong>
                 <p className="text-inherit">{item.content}</p>
