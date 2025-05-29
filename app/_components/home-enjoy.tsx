@@ -13,7 +13,7 @@ export default function Enjoy() {
             <h2 className="text-[#04494C] font-[900] text-xl tracking-normal mb-2 text-center uppercase lg:mb-5 lg:text-3xl">
               Enjoy casino fun on the go with the 8k8 app
             </h2>
-            <p className="mb-2 text-[#04494C] font-semibold text-justify lg:mb-5">
+            <p className="mb-2 text-black text-justify lg:mb-5">
               We at 8k8 Casino know that the best way to play games is in a way
               that doesn&lsquo;t get in the way of your daily life. Since
               that&lsquo;s the case, we made the 8k8 mobile app so you can enjoy
