@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function BonusForSocialMedia() {
   return (
     <section className="lg:pb-[40px]">
@@ -24,10 +26,15 @@ export default function BonusForSocialMedia() {
             </p>
           </div>
           <div
-            className="w-full h-full lg:w-[300px] lg:h-[300px] border border-dashed border-black/20 
+            className="w-full h-full lg:w-[300px] lg:h-full 
           rounded-xl flex items-center justify-center text-sm text-black/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/promotion/PROMOTION 4.webp"
+              width={300}
+              height={300}
+              alt="8k8 mystery jackpot with a 1 billion bonus"
+            />
           </div>
         </div>
       </div>

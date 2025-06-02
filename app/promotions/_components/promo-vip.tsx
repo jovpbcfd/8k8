@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function VipBonus() {
   return (
     <section className="lg:pb-[40px]">
@@ -23,10 +25,15 @@ export default function VipBonus() {
             </p>
           </div>
           <div
-            className="w-full h-full lg:w-[300px] lg:h-[300px] border border-dashed border-black/20 
+            className="w-full h-full lg:w-[300px] lg:h-full 
           rounded-xl flex items-center justify-center text-sm text-black/60"
           >
-            Image 1080x1080
+            <Image
+              src="/img/promotion/PROMOTION 1.webp"
+              width={300}
+              height={300}
+              alt="Improve your membership—VIP bonus"
+            />
           </div>
         </div>
       </div>
